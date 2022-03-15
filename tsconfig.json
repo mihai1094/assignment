@@ -1,0 +1,15 @@
+{
+    "include": [
+        "./src/*",
+        "README.md"
+    ],
+    "compilerOptions": {
+        "strict": true,
+        "lib": [
+            "dom",
+            "es2015"
+        ],
+        "esModuleInterop": true,
+        "jsx": "react"
+    }
+}
