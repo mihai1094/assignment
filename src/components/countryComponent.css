@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  width: 30%;
+  margin-left: 110px;
+  margin-top: 10px;
+}
+.btn {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+.details {
+  background-color: antiquewhite;
+}
+.btn:active {
+  background-color: rgba(0, 0, 0, 0.432);
+}

@@ -1,0 +1,29 @@
+.formContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.search-btn {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: black;
+  color: white;
+}
+.input {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.search-btn-container {
+  display: flex;
+  align-items: flex-end;
+}
+.search-container {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}

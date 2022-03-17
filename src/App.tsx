@@ -2,9 +2,10 @@ import * as React from "react";
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 import ReactMarkdown from "react-markdown";
 
-import Continents from "./Continents";
+// import Continents from "./Continents";
 
 import "./styles.css";
+import { CountriesCatalogPage } from "./pages/CountriesCatalogPage";
 
 // This function loads README.md file to react, it is a little bit hacky,
 // because codesandbox makes loading MD files complicated.
@@ -21,6 +22,7 @@ const client = new ApolloClient({
 
 const App = () => (
   <ApolloProvider client={client}>
+    <CountriesCatalogPage />
     {/* <ReactMarkdown>{loadMarkdownReadme()}</ReactMarkdown> */}
     {/* <Continents /> */}
   </ApolloProvider>

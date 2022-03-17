@@ -1,5 +1,15 @@
 # Frontend Assignment
 
+Hi, Catalin here.
+
+First of all thank you for this cool exercise & opportunity.
+I have to mention some things:
+
+- Unfortunately, I haven't done any tests so far at previous jobs.
+- There is a lot of room for improvement especially in terms of appearance & TS types
+- I've never worked with Styled Components before, so I used a separate CSS file. Anyway, it looks really cool from what I've seen :)
+- The solution with countries stored in memory I think it's fine in this small app. However, when we work with big numbers of data we should query/GET that specific item.
+
 ## Description
 
 Please complete a small application based on the UI mockup provided below.
