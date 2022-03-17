@@ -2,7 +2,7 @@ import * as React from "react";
 import { useQuery, gql } from "@apollo/client";
 import styled from "styled-components";
 
-type ContinentsComponent = () => {};
+type ContinentsComponent = () => React.ReactElement;
 
 const Continents: ContinentsComponent = () => {
   const CONTINENTS = gql`
